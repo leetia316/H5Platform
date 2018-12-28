@@ -18,7 +18,7 @@
 					</div>
 					<div class="item">
 						<label for="password">确认密码：</label>
-						<input id="password" type="password" placeholder="请再次输入密码" v-bind:class="{'erro_input':erro.target == 'passwordAgain'}" v-model="passwordAgain" @blur="bl" @focus="fo"></input>	
+						<input id="password_confrim" type="password" placeholder="请再次输入密码" v-bind:class="{'erro_input':erro.target == 'passwordAgain'}" v-model="passwordAgain" @blur="bl" @focus="fo"></input>	
 					</div>
 					<div class="item clearfix">
 						<a @click="funshowLogin()">已有帐号？</a>

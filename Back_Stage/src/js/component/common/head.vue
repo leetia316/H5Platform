@@ -1,6 +1,6 @@
 <template>
 	<div class="head_con">
-		<a href="javascript:void(0)" v-link="{path: '/list'}" class="item left">Go H5</a>
+		<a href="javascript:void(0)" v-link="{path: '/list'}" class="item left">MYOU<span class="logo_point">·</span>H5</a>
 		<div class="item center" v-show="page == 'edit'">
 			<ul class="create_group">
 				<li @click="addText()"><div class="icon icon1"></div><span>文本</span></li>
@@ -48,6 +48,7 @@
 .head_con .item.center .create_group li .icon5{background-position: 0 -90px;}
 .head_con .item.center .create_group li .icon6{background-position: 0 -120px;}
 .head_con .item.right{}
+.logo_point{color:red;font-weight: bold;}
 .btn_group{margin-right: 17px}
 .btn_group li{background: #76838e;height: 28px;line-height: 28px;margin: 16px 3px 0;padding: 0 10px;border-radius: 6px;cursor: pointer;transition: all ease 0.3s;-webkit-transition: all ease 0.3s;position: relative;}
 .btn_group li:hover{background: #01d7b2!important;}
