@@ -67,7 +67,7 @@
 .list_con .list_body ul li .top .status{display: block;position: absolute;width: 120px;height: 24px;color: #fff;font-size: 12px;line-height: 24px;transform: rotate(-45deg);-webkit-transform: rotate(45deg);background: #aaa;text-align: center;right: -36px;top: 8px;}
 .list_con .list_body ul li .top .status.status_0{}
 .list_con .list_body ul li .top .status.status_1{background: #01d7b2;}
-.list_con .list_body ul li .middle{padding: 8px;box-sizing: border-box;border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;}
+.list_con .list_body ul li .middle{padding: 8px;box-sizing: border-box;border-bottom: 1px solid #f0f0f0;border-top: 1px solid #f0f0f0;}
 .list_con .list_body ul li .middle p{font-size: 16px;color: #3f4a58;line-height: 24px;text-align: left;overflow: hidden;text-overflow: ellipsis;width: 100%;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
 .list_con .list_body ul li .middle .desc{font-size: 0;}
 .list_con .list_body ul li .middle .desc em{font-size: 12px;color: #a0aec4;display: inline-block;vertical-align: top;width: 40%;font-style: normal;line-height: 20px;}
