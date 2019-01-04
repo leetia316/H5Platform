@@ -1,7 +1,8 @@
 'use strict';
 
 var Toast = {};
-Toast.toast = function(msg) {
+Toast.toast = function(msg,t) {
+    t = t || 5000;
     var active = "toast-active";
     var div = document.createElement("div");
     div.classList.add("toast-container")
@@ -14,7 +15,7 @@ Toast.toast = function(msg) {
     div.classList.add(active)
     setTimeout(function() {
         div.classList.remove(active)
-    }, 3000)
+    }, t)
 }
 
 module.exports = Toast;
