@@ -60,6 +60,7 @@ var webpackConfig = {
             Swiper: pwd + '/src/js/swiper.js',
             Event: pwd + '/src/js/event.js',
             utils: pwd + '/src/js/utils.js',
+            comp: pwd + '/src/js/comp.js',
         }
     },
 };
