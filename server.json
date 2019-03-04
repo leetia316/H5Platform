@@ -2,6 +2,7 @@
     "apps": [{
         "name": "MYOU·H5",
         "script": "app.js",
+		"user": "leesny",
         "watch": false
     }]
 }
